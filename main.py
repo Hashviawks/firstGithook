@@ -1,6 +1,6 @@
-def greet(user_name: str) -> None:
+def greet(user_name):
     print(f"Hallo, {user_name}!")
 
 
-name: str = input("Enter your name: ").strip()
+name = input("Enter your name: ")
 greet(name)
